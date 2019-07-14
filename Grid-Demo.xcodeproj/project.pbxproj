@@ -13,6 +13,8 @@
 		AB777B2B22DA9F5200B2E4BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB777B2A22DA9F5200B2E4BC /* Assets.xcassets */; };
 		AB777B2E22DA9F5200B2E4BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB777B2D22DA9F5200B2E4BC /* Preview Assets.xcassets */; };
 		AB777B3122DA9F5200B2E4BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB777B2F22DA9F5200B2E4BC /* LaunchScreen.storyboard */; };
+		AB777B3922DAA75B00B2E4BC /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB777B3822DAA75B00B2E4BC /* Dish.swift */; };
+		AB777B3B22DAAA0900B2E4BC /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB777B3A22DAAA0900B2E4BC /* Array+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AB777B2D22DA9F5200B2E4BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB777B3022DA9F5200B2E4BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB777B3222DA9F5200B2E4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB777B3822DAA75B00B2E4BC /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		AB777B3A22DAAA0900B2E4BC /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				AB777B2F22DA9F5200B2E4BC /* LaunchScreen.storyboard */,
 				AB777B3222DA9F5200B2E4BC /* Info.plist */,
 				AB777B2C22DA9F5200B2E4BC /* Preview Content */,
+				AB777B3822DAA75B00B2E4BC /* Dish.swift */,
+				AB777B3A22DAAA0900B2E4BC /* Array+Extensions.swift */,
 			);
 			path = "Grid-Demo";
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB777B2522DA9F5000B2E4BC /* AppDelegate.swift in Sources */,
+				AB777B3B22DAAA0900B2E4BC /* Array+Extensions.swift in Sources */,
+				AB777B3922DAA75B00B2E4BC /* Dish.swift in Sources */,
 				AB777B2722DA9F5000B2E4BC /* SceneDelegate.swift in Sources */,
 				AB777B2922DA9F5100B2E4BC /* ContentView.swift in Sources */,
 			);
@@ -293,7 +301,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.Grid-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.grid-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,7 +321,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.Grid-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.grid-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
